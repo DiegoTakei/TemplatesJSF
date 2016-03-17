@@ -3,13 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"   
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      >
+      xmlns:ui="http://java.sun.com/jsf/facelets">
       
   	<head>
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <title><ui:insert name="title">Home</ui:insert></title>
     </head>
 
   
@@ -23,9 +23,9 @@
 				</ui:insert>
 		    </div>
 		    
-		    <div id="menu">
-			   	<ui:insert name="menu" >
-			   		<ui:include src="menu.xhtml" />
+		   <div id="conteudo2">
+			   	<ui:insert name="conteudo2">
+			   		<ui:include src="Conteudo.xhtml" />
 			   	</ui:insert>
 		    </div>
 			    
